@@ -5,6 +5,7 @@ class GitCredentialGmail < Formula
   url "https://github.com/AdityaGarg8/git-credential-outlook-and-gmail/archive/refs/tags/v2.2.tar.gz"
   sha256 "90d748ffc095687ec07e48c9c3387985ff6518027af598fd506c12f43526f9c6"
   license "Apache-2.0"
+  revision 1
 
   depends_on "pyqt@6"
   depends_on "python@3.13"

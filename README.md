@@ -1,5 +1,12 @@
 # Adityagarg8 Git-credential-outlook-and-gmail
 
+## Available formulae:
+
+- `git-credential-gmail`
+- `git-credential-outlook`
+
+Visit https://github.com/AdityaGarg8/git-credential-outlook-and-gmail to know more about them.
+
 ## How do I install these formulae?
 
 `brew install adityagarg8/git-credential-outlook-and-gmail/<formula>`

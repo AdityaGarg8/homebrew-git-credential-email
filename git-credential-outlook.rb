@@ -99,6 +99,6 @@ class GitCredentialOutlook < Formula
   end
 
   test do
-    assert_match "usage", shell_output("#{bin}/git-credential-outlook --help", 1)
+    assert_match "Usage", shell_output("#{bin}/git-credential-outlook --help")
   end
 end

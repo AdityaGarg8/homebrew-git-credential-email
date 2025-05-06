@@ -76,11 +76,6 @@ class GitCredentialOutlook < Formula
     sha256 "8c16673ade76a2d42417f03e57acf239bfb5968e842204c17990cae357d07d6f"
   end
 
-  resource "trustme" do
-    url "https://files.pythonhosted.org/packages/4b/c5/931476f4cf1cd9e736f32651005078061a50dc164a2569fb874e00eb2786/trustme-1.2.1.tar.gz"
-    sha256 "6528ba2bbc7f2db41f33825c8dd13e3e3eb9d334ba0f909713c8c3139f4ae47f"
-  end
-
   resource "urllib3" do
     url "https://files.pythonhosted.org/packages/8a/78/16493d9c386d8e60e442a35feac5e00f0913c0f4b7c217c11e8ec2ff53e0/urllib3-2.4.0.tar.gz"
     sha256 "414bc6535b787febd7567804cc015fee39daab8ad86268f1310a9250697de466"

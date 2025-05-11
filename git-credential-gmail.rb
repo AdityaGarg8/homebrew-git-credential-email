@@ -2,8 +2,8 @@ class GitCredentialGmail < Formula
   include Language::Python::Virtualenv
   desc "Git credential helper to get OAauth2 token for Gmail accounts"
   homepage "https://github.com/AdityaGarg8/git-credential-email"
-  url "https://github.com/AdityaGarg8/git-credential-email/archive/refs/tags/v3.0.tar.gz"
-  sha256 "3cb3598676462cb9d0772b09effac4287b058763ca353168edde75a65844e617"
+  url "https://github.com/AdityaGarg8/git-credential-email/archive/refs/tags/v3.0.1.tar.gz"
+  sha256 "a1dc244604c4b2c81d51c7af0540fd20214e68c7cca22a8ce1e8a477bcb237c3"
   license "Apache-2.0"
 
   depends_on "pyqt@6"

@@ -18,5 +18,6 @@ jobs:
         run: |
           python3 ./update.py ${{ github.workspace }}/git-credential-outlook.rb
           python3 ./update.py ${{ github.workspace }}/git-credential-gmail.rb
+          python3 ./update.py ${{ github.workspace }}/git-credential-yahoo.rb
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7

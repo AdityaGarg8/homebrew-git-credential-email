@@ -4,6 +4,7 @@
 
 - `git-credential-gmail`
 - `git-credential-outlook`
+- `git-credential-yahoo`
 
 Visit https://github.com/AdityaGarg8/git-credential-email to know more about them.
 

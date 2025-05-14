@@ -2,8 +2,8 @@ class GitCredentialOutlook < Formula
   include Language::Python::Virtualenv
   desc "Git credential helper to get OAauth2 token for Microsoft Outlook accounts"
   homepage "https://github.com/AdityaGarg8/git-credential-email"
-  url "https://github.com/AdityaGarg8/git-credential-email/archive/refs/tags/v4.0.1.tar.gz"
-  sha256 "d31150e19dcb3a915143fbf5edd9ba5cb50634245e47f43af19d8c4fecbcb966"
+  url "https://github.com/AdityaGarg8/git-credential-email/archive/refs/tags/v4.1.tar.gz"
+  sha256 "ee6a116f9d2468eb1b818e1147eecead0cea761a6f7b311158c8845e8be54324"
   license "Apache-2.0"
 
   depends_on "certifi"

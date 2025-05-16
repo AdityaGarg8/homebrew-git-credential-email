@@ -8,7 +8,6 @@ class GitCredentialOutlook < Formula
 
   depends_on "certifi"
   depends_on "cryptography"
-  depends_on "pyqt@6"
   depends_on "python@3.13"
 
   resource "charset-normalizer" do

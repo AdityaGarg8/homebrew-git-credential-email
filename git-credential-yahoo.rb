@@ -6,7 +6,6 @@ class GitCredentialYahoo < Formula
   sha256 "ee6a116f9d2468eb1b818e1147eecead0cea761a6f7b311158c8845e8be54324"
   license "Apache-2.0"
 
-  depends_on "pyqt@6"
   depends_on "python@3.13"
 
   on_linux do

@@ -2,8 +2,8 @@ class GitCredentialYahoo < Formula
   include Language::Python::Virtualenv
   desc "Git credential helper to get OAauth2 token for Yahoo accounts"
   homepage "https://github.com/AdityaGarg8/git-credential-email"
-  url "https://github.com/AdityaGarg8/git-credential-email/archive/refs/tags/v4.4.tar.gz"
-  sha256 "fc097035f8bede2ecb64c32d06b4bef1702eb6af20b9e53a2e549ce8c2e0ed54"
+  url "https://github.com/AdityaGarg8/git-credential-email/archive/refs/tags/v4.4.1.tar.gz"
+  sha256 "f96886bb99097d0755e8ed9e2ec8ceb5d22a39c290e70cf2d386367bec6657fb"
   license "Apache-2.0"
 
   depends_on "python@3.13"

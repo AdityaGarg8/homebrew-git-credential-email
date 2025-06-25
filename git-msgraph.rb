@@ -1,4 +1,5 @@
 class GitMsgraph < Formula
+  include Language::Python::Virtualenv
   desc "Helper to use Microsoft Graph API instead of SMTP to send emails"
   homepage "https://github.com/AdityaGarg8/git-credential-email"
   url "https://github.com/AdityaGarg8/git-credential-email/archive/refs/tags/v4.7.1.tar.gz"

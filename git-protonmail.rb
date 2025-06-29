@@ -7,8 +7,8 @@ class GitProtonmail < Formula
   license "GPL-3.0-only"
 
   depends_on "cryptography"
-  depends_on "python@3.13"
   depends_on "rust" => :build
+  depends_on "python@3.13"
 
   resource "bcrypt" do
     url "https://files.pythonhosted.org/packages/bb/5d/6d7433e0f3cd46ce0b43cd65e1db465ea024dbb8216fb2404e919c2ad77b/bcrypt-4.3.0.tar.gz"

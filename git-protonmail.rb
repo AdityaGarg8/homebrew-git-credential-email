@@ -6,8 +6,8 @@ class GitProtonmail < Formula
   sha256 "426371c6250470b0fa81b57cdaeb6b73b37fef6f4716ab9443fd0cee9e2456fe"
   license "GPL-3.0-only"
 
-  depends_on "cryptography"
   depends_on "rust" => :build
+  depends_on "cryptography"
   depends_on "python@3.13"
 
   resource "bcrypt" do

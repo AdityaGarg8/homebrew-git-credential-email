@@ -6,8 +6,8 @@ class GitProtonmail < Formula
   sha256 "bebdc14ed38330a23b5e97c07513e9b65c1c9aae23165f0dda33af03d87413a9"
   license "GPL-3.0-only"
 
-   depends_on "cryptography"
-   depends_on "python@3.13"
+  depends_on "cryptography"
+  depends_on "python@3.13"
 
   resource "bcrypt" do
     url "https://files.pythonhosted.org/packages/bb/5d/6d7433e0f3cd46ce0b43cd65e1db465ea024dbb8216fb2404e919c2ad77b/bcrypt-4.3.0.tar.gz"
@@ -89,7 +89,7 @@ class GitProtonmail < Formula
     sha256 "8c16673ade76a2d42417f03e57acf239bfb5968e842204c17990cae357d07d6f"
   end
 
-  resource "typing_extensions" do
+  resource "typing-extensions" do
     url "https://files.pythonhosted.org/packages/d1/bc/51647cd02527e87d05cb083ccc402f93e441606ff1f01739a62c8ad09ba5/typing_extensions-4.14.0.tar.gz"
     sha256 "8676b788e32f02ab42d9e7c61324048ae4c6d844a399eebace3d4979d75ceef4"
   end

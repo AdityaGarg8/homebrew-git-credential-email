@@ -7,6 +7,7 @@
 - `git-credential-yahoo`
 - `git-credential-aol`
 - `git-msgraph`
+- `git-protonmail`
 
 Visit https://github.com/AdityaGarg8/git-credential-email to know more about them.
 

@@ -31,6 +31,7 @@ class Fakeroot < Formula
 
     args = ["--disable-silent-rules"]
     args << "--disable-static" if OS.mac?
+    args << "--disable-nls"
 
     system "./configure", *args, *std_configure_args
     system "make"

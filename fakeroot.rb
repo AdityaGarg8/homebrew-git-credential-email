@@ -1,8 +1,8 @@
 class Fakeroot < Formula
   desc "Provide a fake root environment"
   homepage "https://tracker.debian.org/pkg/fakeroot"
-  url "https://salsa.debian.org/clint/fakeroot/-/archive/upstream/1.31/fakeroot-upstream-1.31.tar.gz"
-  sha256 "a5f808e121397bf5b4aeb435ae819b1fd8729cd4cdbeb17d1b163366c70e636f"
+  url "https://nue.de.distfiles.macports.org/fakeroot/fakeroot_1.31.orig.tar.gz"
+  sha256 "63886d41e11c56c7170b9d9331cca086421b350d257338ef14daad98f77e202f"
   license "GPL-3.0-or-later"
 
   # Needed to apply patches below. Remove when no longer needed.

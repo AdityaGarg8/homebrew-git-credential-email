@@ -2,7 +2,7 @@ class Fakeroot < Formula
   desc "Provide a fake root environment"
   homepage "https://tracker.debian.org/pkg/fakeroot"
   url "https://salsa.debian.org/clint/fakeroot/-/archive/debian/1.35-1/fakeroot-debian-1.35-1.tar.gz"
-  sha256 "63886d41e11c56c7170b9d9331cca086421b350d257338ef14daad98f77e202f"
+  sha256 "d820ba26b0dffd7daac13e65e093f05c9ae9103cb5dc4cd7ee2b4c39a398f550"
   license "GPL-3.0-or-later"
 
   livecheck do

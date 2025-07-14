@@ -1,8 +1,8 @@
 class Fakeroot < Formula
   desc "Provide a fake root environment"
   homepage "https://tracker.debian.org/pkg/fakeroot"
-  url "https://salsa.debian.org/clint/fakeroot/-/archive/debian/1.37.1.2-1/fakeroot-debian-1.37.1.2-1.tar.gz"
-  sha256 "d56f70eefcbde8bd685a7c0500d79711f653c5b1d0a23aa04f2c428db8004894"
+  url "https://salsa.debian.org/clint/fakeroot/-/archive/debian/1.34-1/fakeroot-debian-1.34-1.tar.gz"
+  sha256 "86caafc5bf70b84bb4017b691540e29cbfec03bc66426d15ce79413b0c854ea2"
   license "GPL-3.0-or-later"
 
   livecheck do
@@ -33,7 +33,6 @@ class Fakeroot < Formula
     args << "--disable-static" if OS.mac?
 
     system "./configure", *args, *std_configure_args
-    inreplace "doc/de/Makefile.in", /^man_MANS =.*$/, "man_MANS ="
     system "make"
     system "make", "install"
   end

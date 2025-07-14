@@ -5,11 +5,6 @@ class Fakeroot < Formula
   sha256 "63886d41e11c56c7170b9d9331cca086421b350d257338ef14daad98f77e202f"
   license "GPL-3.0-or-later"
 
-  livecheck do
-    url "https://deb.debian.org/debian/pool/main/f/fakeroot/"
-    regex(/href=.*?fakeroot[._-]v?(\d+(?:\.\d+)+)[._-]orig\.t/i)
-  end
-
   # Needed to apply patches below. Remove when no longer needed.
   depends_on "autoconf" => :build
   depends_on "automake" => :build

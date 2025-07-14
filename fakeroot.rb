@@ -33,6 +33,7 @@ class Fakeroot < Formula
     args << "--disable-static" if OS.mac?
 
     system "./configure", *args, *std_configure_args
+    inreplace "doc/de/Makefile.in", /^man_MANS =.*$/, "man_MANS ="
     system "make"
     system "make", "install"
   end

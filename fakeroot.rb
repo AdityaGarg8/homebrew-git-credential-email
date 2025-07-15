@@ -1,7 +1,7 @@
 class Fakeroot < Formula
   desc "Provide a fake root environment"
   homepage "https://tracker.debian.org/pkg/fakeroot"
-  url "https://nue.de.distfiles.macports.org/fakeroot/fakeroot_1.35.1.orig.tar.gz"
+  url "https://nue.de.distfiles.macports.org/fakeroot/fakeroot_1.35.orig.tar.gz"
   sha256 "6a0de53b2de05277d4e6d4a884eb0de7a8ad467b82c07a6f8f2f6a629e655fdc"
   license "GPL-3.0-or-later"
 
@@ -20,12 +20,12 @@ class Fakeroot < Formula
     url "https://raw.githubusercontent.com/macports/macports-ports/0ffd857cab7b021f9dbf2cbc876d8025b6aefeff/sysutils/fakeroot/files/patch-message.h.diff"
     sha256 "6540eef1c31ffb4ed636c1f4750ee668d2effdfe308d975d835aa518731c72dc"
   end
-  patch :p1 do
-    url "https://github.com/AdityaGarg8/random/releases/download/Test/0001-Revert-fallback-to-close-fds-with-looping-when-close.patch"
-    sha256 "4aeca9920e0e915e8ca178b40d24414e873b77c01f62a746248257073348e55d"
-    url "https://github.com/AdityaGarg8/random/releases/download/Test/0001-Revert-test-for-id_t-with-autoconf-instead-of-blind-.patch"
-    sha256 "5509819a71904794ea7799f10321487227f3b7274cef0f311611e5560cfc572c"
-  end
+  #patch :p1 do
+  #  url "https://github.com/AdityaGarg8/random/releases/download/Test/0001-Revert-fallback-to-close-fds-with-looping-when-close.patch"
+  #  sha256 "4aeca9920e0e915e8ca178b40d24414e873b77c01f62a746248257073348e55d"
+  #  url "https://github.com/AdityaGarg8/random/releases/download/Test/0001-Revert-test-for-id_t-with-autoconf-instead-of-blind-.patch"
+  #  sha256 "5509819a71904794ea7799f10321487227f3b7274cef0f311611e5560cfc572c"
+  #end
 
   def install
     system "./bootstrap" # remove when patches are no longer needed

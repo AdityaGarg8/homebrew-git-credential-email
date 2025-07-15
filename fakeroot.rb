@@ -23,6 +23,8 @@ class Fakeroot < Formula
   patch :p1 do
     url "https://github.com/AdityaGarg8/random/releases/download/Test/0001-Revert-fallback-to-close-fds-with-looping-when-close.patch"
     sha256 "4aeca9920e0e915e8ca178b40d24414e873b77c01f62a746248257073348e55d"
+    url "https://github.com/AdityaGarg8/random/releases/download/Test/0001-Revert-test-for-id_t-with-autoconf-instead-of-blind-.patch"
+    sha256 "5509819a71904794ea7799f10321487227f3b7274cef0f311611e5560cfc572c"
   end
 
   def install

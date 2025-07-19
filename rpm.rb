@@ -11,7 +11,7 @@ class Rpm < Formula
 
   stable do
     url "https://ftp.osuosl.org/pub/rpm/releases/rpm-4.20.x/rpm-4.20.0.tar.bz2"
-    sha256 "52647e12638364533ab671cbc8e485c96f9f08889d93fe0ed104a6632661124f"
+    sha256 "56ff7638cff98b56d4a7503ff59bc79f281a6ddffcda0d238c082bedfb5fbe7b"
 
     # Backport commit needed to fix handling of -fhardened
     patch do

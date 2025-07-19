@@ -17,6 +17,9 @@ class Rpm < Formula
       url "https://github.com/rpm-software-management/rpm/commit/e1d7046ba6662eac9e5e7638e484eb792afa36cc.patch?full_index=1"
       sha256 "ae5358bb8d2b4f1d1a80463adf6b4fa3f28872efad3f9157e822f9318876ad9c"
     end
+    patch do
+      url "https://github.com/AdityaGarg8/rpm/commit/55f55a7d5a798a0f1e2debbf8d118e4d47cdac6e.diff"
+      sha256 "7f730ff9ed03a7c84e85151f2a06b99a3d0ff3c4901eab4a46235760d1e0ba81"
   end
 
   # Upstream uses a 90+ patch to indicate prerelease versions (e.g., the

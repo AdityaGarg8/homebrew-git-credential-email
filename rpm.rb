@@ -7,6 +7,7 @@ class Rpm < Formula
   ]
   version_scheme 1
   head "https://github.com/rpm-software-management/rpm.git", branch: "master"
+  revision 1
 
   stable do
     url "https://ftp.osuosl.org/pub/rpm/releases/rpm-4.20.x/rpm-4.20.0.tar.bz2"
@@ -20,6 +21,10 @@ class Rpm < Formula
     patch do
       url "https://github.com/AdityaGarg8/rpm/commit/55f55a7d5a798a0f1e2debbf8d118e4d47cdac6e.diff"
       sha256 "7f730ff9ed03a7c84e85151f2a06b99a3d0ff3c4901eab4a46235760d1e0ba81"
+    end
+    patch do
+      url "https://github.com/AdityaGarg8/rpm/commit/74ec0be2a06f5a12664cf67b0cf70adf869e1582.diff"
+      sha256 "e2932b53e0beefdfeb21e0715e6c64fc891611bfc207f05e8066b0c9e7d697cb"
     end
   end
 

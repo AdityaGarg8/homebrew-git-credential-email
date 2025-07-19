@@ -24,7 +24,7 @@ class Rpm < Formula
     end
     patch do
       url "https://github.com/AdityaGarg8/rpm/commit/74ec0be2a06f5a12664cf67b0cf70adf869e1582.diff"
-      sha256 "e2932b53e0beefdfeb21e0715e6c64fc891611bfc207f05e8066b0c9e7d697cb"
+      sha256 "1acbcc963958d12a2edbbf45db12121825e4713486a440bb33eef8629e4c2e7e"
     end
   end
 

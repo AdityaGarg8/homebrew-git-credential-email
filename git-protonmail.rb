@@ -3,7 +3,7 @@ class GitProtonmail < Formula
   desc "Git helper to use ProtonMail API to send emails"
   homepage "https://github.com/AdityaGarg8/git-credential-email"
   url "https://github.com/AdityaGarg8/git-credential-email/archive/refs/tags/v5.3.5.tar.gz"
-  sha256 "b2e63491f41cf7b69931cf6a295cd4a912cb236f421ae641abc9cc2316aa454b"
+  sha256 "91ce425b9361957d5c02c5c1c92b4f8aef6c76866652e44327d85b52b5fa9dbf"
   license "GPL-3.0-only"
 
   depends_on "rust" => :build

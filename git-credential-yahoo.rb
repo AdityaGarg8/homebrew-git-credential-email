@@ -3,7 +3,7 @@ class GitCredentialYahoo < Formula
   desc "Git credential helper to get OAuth2.0 token for Yahoo accounts"
   homepage "https://github.com/AdityaGarg8/git-credential-email"
   url "https://github.com/AdityaGarg8/git-credential-email/archive/refs/tags/v5.3.5.tar.gz"
-  sha256 "5cc227c31790322b48bf5f02e40083060b9e4e5b173e9e5958a801eb16687be7"
+  sha256 "81899d967d97df59cc4b7da704e71fc9917d9b30fadccfed4649dc12daadb1dd"
   license "Apache-2.0"
 
   depends_on "python@3.13"

@@ -101,7 +101,7 @@ class GitProtonmail < Formula
   end
 
   def install
-    venv = virtualenv_create(libexec, "python3.13")
+    venv = virtualenv_create(libexec, "python3.14")
     venv.pip_install resources
 
     # Rewrite shebang to use the virtualenv Python

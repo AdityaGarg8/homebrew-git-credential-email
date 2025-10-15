@@ -8,7 +8,7 @@ class GitProtonmail < Formula
 
   depends_on "rust" => :build
   depends_on "cryptography"
-  depends_on "python@3.13"
+  depends_on "python@3.14"
 
   resource "bcrypt" do
     url "https://files.pythonhosted.org/packages/d4/36/3329e2518d70ad8e2e5817d5a4cac6bba05a47767ec416c7d020a965f408/bcrypt-5.0.0.tar.gz"

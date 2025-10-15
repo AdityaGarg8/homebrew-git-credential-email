@@ -6,7 +6,7 @@ class GitCredentialAol < Formula
   sha256 "f9931f3ed7c620c816e98ba525780ef47c3d5cf662686949be04bc51f7f75020"
   license "Apache-2.0"
 
-  depends_on "python@3.13"
+  depends_on "python@3.14"
 
   on_linux do
     depends_on "cryptography"

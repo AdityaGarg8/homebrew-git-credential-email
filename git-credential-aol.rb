@@ -38,8 +38,8 @@ class GitCredentialAol < Formula
   end
 
   resource "jaraco-functools" do
-    url "https://files.pythonhosted.org/packages/f7/ed/1aa2d585304ec07262e1a83a9889880701079dde796ac7b1d1826f40c63d/jaraco_functools-4.3.0.tar.gz"
-    sha256 "cfd13ad0dd2c47a3600b439ef72d8615d482cedcff1632930d6f28924d92f294"
+    url "https://files.pythonhosted.org/packages/0f/27/056e0638a86749374d6f57d0b0db39f29509cce9313cf91bdc0ac4d91084/jaraco_functools-4.4.0.tar.gz"
+    sha256 "da21933b0417b89515562656547a77b4931f98176eb173644c0d35032a33d6bb"
   end
 
   resource "jeepney" do

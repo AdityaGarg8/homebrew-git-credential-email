@@ -1,5 +1,6 @@
 class GitCredentialAol < Formula
   include Language::Python::Virtualenv
+
   desc "Git credential helper to get OAuth2.0 token for AOL accounts"
   homepage "https://github.com/AdityaGarg8/git-credential-email"
   url "https://github.com/AdityaGarg8/git-credential-email/archive/refs/tags/v5.5.4.tar.gz"

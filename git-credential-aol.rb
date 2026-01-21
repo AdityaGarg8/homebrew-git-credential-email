@@ -87,11 +87,13 @@ class GitCredentialAol < Formula
     venv = virtualenv_create(libexec, "python3.14")
     venv.pip_install resources
 
-    # Rewrite shebang to use the virtualenv Python
-    inreplace "git-credential-aol", /^#!.*python.*/, "#!#{libexec}/bin/python"
-    chmod 0755, "git-credential-aol"
+    script = "git-credential-aol/src/git_credential_aol/git-credential-aol.py"
 
-    (libexec/"bin").install "git-credential-aol"
+    # Rewrite shebang to use the virtualenv Python
+    inreplace script, /^#!.*python.*/, "#!#{libexec}/bin/python"
+    chmod 0755, script
+
+    (libexec/"bin").install script => "git-credential-aol"
     bin.install_symlink libexec/"bin/git-credential-aol"
   end
 

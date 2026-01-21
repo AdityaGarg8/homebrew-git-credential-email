@@ -87,13 +87,11 @@ class GitCredentialOutlook < Formula
     venv = virtualenv_create(libexec, "python3.14")
     venv.pip_install resources
 
-    script = "git-credential-outlook/src/git_credential_outlook/git-credential-outlook.py"
-
     # Rewrite shebang to use the virtualenv Python
-    inreplace script, /^#!.*python.*/, "#!#{libexec}/bin/python"
-    chmod 0755, script
+    inreplace "git-credential-outlook", /^#!.*python.*/, "#!#{libexec}/bin/python"
+    chmod 0755, "git-credential-outlook"
 
-    (libexec/"bin").install script => "git-credential-outlook"
+    (libexec/"bin").install "git-credential-outlook"
     bin.install_symlink libexec/"bin/git-credential-outlook"
   end
 

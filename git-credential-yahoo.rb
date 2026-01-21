@@ -87,13 +87,11 @@ class GitCredentialYahoo < Formula
     venv = virtualenv_create(libexec, "python3.14")
     venv.pip_install resources
 
-    script = "git-credential-yahoo/src/git_credential_yahoo/git-credential-yahoo.py"
-
     # Rewrite shebang to use the virtualenv Python
-    inreplace script, /^#!.*python.*/, "#!#{libexec}/bin/python"
-    chmod 0755, script
+    inreplace "git-credential-yahoo", /^#!.*python.*/, "#!#{libexec}/bin/python"
+    chmod 0755, "git-credential-yahoo"
 
-    (libexec/"bin").install script => "git-credential-yahoo"
+    (libexec/"bin").install "git-credential-yahoo"
     bin.install_symlink libexec/"bin/git-credential-yahoo"
   end
 

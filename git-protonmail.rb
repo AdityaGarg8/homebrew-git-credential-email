@@ -105,13 +105,11 @@ class GitProtonmail < Formula
     venv = virtualenv_create(libexec, "python3.14")
     venv.pip_install resources
 
-    script = "git-protonmail/src/git_protonmail/git-protonmail.py"
-
     # Rewrite shebang to use the virtualenv Python
-    inreplace script, /^#!.*python.*/, "#!#{libexec}/bin/python"
-    chmod 0755, script
+    inreplace "git-protonmail", /^#!.*python.*/, "#!#{libexec}/bin/python"
+    chmod 0755, "git-protonmail"
 
-    (libexec/"bin").install script => "git-protonmail"
+    (libexec/"bin").install "git-protonmail"
     bin.install_symlink libexec/"bin/git-protonmail"
   end
 

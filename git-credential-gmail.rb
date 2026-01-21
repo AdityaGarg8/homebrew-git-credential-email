@@ -87,13 +87,11 @@ class GitCredentialGmail < Formula
     venv = virtualenv_create(libexec, "python3.14")
     venv.pip_install resources
 
-    script = "git-credential-gmail/src/git_credential_gmail/git-credential-gmail.py"
-
     # Rewrite shebang to use the virtualenv Python
-    inreplace script, /^#!.*python.*/, "#!#{libexec}/bin/python"
-    chmod 0755, script
+    inreplace "git-credential-gmail", /^#!.*python.*/, "#!#{libexec}/bin/python"
+    chmod 0755, "git-credential-gmail"
 
-    (libexec/"bin").install script => "git-credential-gmail"
+    (libexec/"bin").install "git-credential-gmail"
     bin.install_symlink libexec/"bin/git-credential-gmail"
   end
 

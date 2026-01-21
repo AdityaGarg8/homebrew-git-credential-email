@@ -87,13 +87,11 @@ class GitMsgraph < Formula
     venv = virtualenv_create(libexec, "python3.14")
     venv.pip_install resources
 
-    script = "git-msgraph/src/git_msgraph/git-msgraph.py"
-
     # Rewrite shebang to use the virtualenv Python
-    inreplace script, /^#!.*python.*/, "#!#{libexec}/bin/python"
-    chmod 0755, script
+    inreplace "git-msgraph", /^#!.*python.*/, "#!#{libexec}/bin/python"
+    chmod 0755, "git-msgraph"
 
-    (libexec/"bin").install script => "git-msgraph"
+    (libexec/"bin").install "git-msgraph"
     bin.install_symlink libexec/"bin/git-msgraph"
   end
 

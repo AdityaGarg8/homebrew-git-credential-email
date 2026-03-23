@@ -3,8 +3,8 @@ class GitCredentialGmail < Formula
 
   desc "Git credential helper to get OAuth2.0 token for Gmail accounts"
   homepage "https://github.com/AdityaGarg8/git-credential-email"
-  url "https://github.com/AdityaGarg8/git-credential-email/archive/refs/tags/v5.8.tar.gz"
-  sha256 "fa22eae0dbef39f2cb54f05f099cce11d12c587e77f950e0720ca6c7346639a0"
+  url "https://github.com/AdityaGarg8/git-credential-email/archive/refs/tags/v5.8.1.tar.gz"
+  sha256 "e4e187faa6d46924d8fe6ba7ea66d6fd3925419a900f163a01f018e93fbb7b63"
   license "Apache-2.0"
 
   depends_on "python@3.14"

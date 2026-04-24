@@ -3,8 +3,8 @@ class GitCredentialAol < Formula
 
   desc "Git credential helper to get OAuth2.0 token for AOL accounts"
   homepage "https://github.com/AdityaGarg8/git-credential-email"
-  url "https://github.com/AdityaGarg8/git-credential-email/archive/refs/tags/v5.9.1.tar.gz"
-  sha256 "d7d735489954b6b8e0dc6b0bee6685df8999813842fa9fcbeb0709333f52646c"
+  url "https://github.com/AdityaGarg8/git-credential-email/archive/refs/tags/v5.9.2.tar.gz"
+  sha256 "6dbc658483c72e9cc7ad5d985d694fad79c8bed6cb58356a026575dd6bb9bf7e"
   license "Apache-2.0"
 
   depends_on "python@3.14"

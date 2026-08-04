@@ -74,8 +74,8 @@ class GitCredentialOutlook < Formula
   end
 
   resource "shtab" do
-    url "https://files.pythonhosted.org/packages/fc/67/179150085f25bb5435ed81befd9a0152764b3bb1b1167f7625fc320d9c56/shtab-1.9.2.tar.gz"
-    sha256 "8f9ef33e1c89d6c294c9bd8fc5c0d661892054a60f7ab9c909e80302061f2a3f"
+    url "https://files.pythonhosted.org/packages/fb/79/789eac85ffa705c1405e8524bd99b88b882b4495cd6d2bf30bfa9af909e7/shtab-1.9.3.tar.gz"
+    sha256 "76d9b980cb7fca90b808380f9f1d251f37891d1abc30e1d63f6bde030f804c02"
   end
 
   resource "urllib3" do

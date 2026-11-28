@@ -74,8 +74,8 @@ class GitCredentialGmail < Formula
   end
 
   resource "shtab" do
-    url "https://files.pythonhosted.org/packages/ff/dd/e58588cf2d02266d504f4399979740b8b2b61fbd7719a89578afaa6558a3/shtab-1.13.0.tar.gz"
-    sha256 "0a5be9d7ab2b4549e9a38252abcd5ecf5ec6813ecd80c6b06fa851bff55a5085"
+    url "https://files.pythonhosted.org/packages/a5/a4/d4041a7116107b491d071c60d331dbc5ee37e9ab1daf8be0fb47becd0bb3/shtab-1.14.0.tar.gz"
+    sha256 "ff101043cdee47828918062a1c56b047569d3592b856aa62638ffada5567c6eb"
   end
 
   resource "urllib3" do
